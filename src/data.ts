@@ -1,0 +1,97 @@
+import { Product, Category } from './types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'dairy',
+    name: 'Dairy',
+    description: 'Fresh and nutritious dairy products from grass-fed cows.',
+    image: 'https://www.lacnor.com/assets/a5158fed-fd1e-47f1-b717-a95c2f70237c',
+  },
+  {
+    id: 'juices',
+    name: 'Juices',
+    description: '100% natural juices made from the finest fruits.',
+    image: 'https://www.lacnor.com/assets/b4af6a33-b7f0-4895-acd8-247378f7ad1a',
+  },
+  {
+    id: 'condiments',
+    name: 'Condiments',
+    description: 'High-quality condiments to enhance your meals.',
+    image: 'https://www.lacnor.com/assets/917424e5-cf19-48a3-a444-b506e1a50f26',
+  },
+];
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'full-cream-milk',
+    name: 'Full Cream Milk',
+    description: 'Lacnor Essentials Full Cream Milk is made from 100% natural ingredients and is enriched with vitamins A and D. No milk powder or preservatives are added.',
+    category: 'Dairy',
+    image: 'https://www.lacnor.com/assets/7cafb1bc-4e0c-44a8-b8ac-3f93b79f320f',
+    price: 12.50,
+    tags: ['100% Natural', 'Vitamins A & D'],
+  },
+  {
+    id: 'high-protein-milk',
+    name: 'High Protein Milk',
+    description: 'Lacnor Essentials High Protein Milk is perfect for those with an active lifestyle, providing the protein you need to stay strong.',
+    category: 'Dairy',
+    image: 'https://www.lacnor.com/assets/bf883389-ab36-46c3-967e-3f9f31aeda42',
+    price: 15.00,
+    tags: ['High Protein', 'Active Lifestyle'],
+  },
+  {
+    id: 'apple-banana-smoothie',
+    name: 'Apple Banana Smoothie',
+    description: 'A delicious blend of apples and bananas, perfect for a quick and healthy snack on the go.',
+    category: 'Juices',
+    image: 'https://www.lacnor.com/assets/d9406524-67e0-48f6-9e5d-1a3ccc703904',
+    price: 8.50,
+    tags: ['100% Fruit', 'No Added Sugar'],
+  },
+  {
+    id: 'apple-juice',
+    name: 'Apple Juice',
+    description: 'Lacnor 100% Apple Juice is made from the finest apples, with no added sugar or preservatives.',
+    category: 'Juices',
+    image: 'https://www.lacnor.com/assets/3620980c-9602-4660-8488-847250e6871a',
+    price: 9.00,
+    tags: ['100% Juice', 'No Added Sugar'],
+  },
+  {
+    id: 'orange-juice',
+    name: 'Orange Juice',
+    description: 'Lacnor 100% Orange Juice is packed with Vitamin C and the fresh taste of sun-ripened oranges.',
+    category: 'Juices',
+    image: 'https://picsum.photos/seed/lacnor-orange-juice/600/800',
+    price: 9.00,
+    tags: ['Vitamin C', '100% Juice'],
+  },
+  {
+    id: 'mango-juice',
+    name: 'Mango Juice',
+    description: 'The rich and tropical taste of mangoes in every sip. Lacnor Mango Juice is a family favorite.',
+    category: 'Juices',
+    image: 'https://picsum.photos/seed/lacnor-mango-juice/600/800',
+    price: 9.50,
+    tags: ['Tropical', 'Family Favorite'],
+  },
+  {
+    id: 'low-fat-milk',
+    name: 'Low Fat Milk',
+    description: 'All the goodness of milk with less fat. Perfect for a balanced diet.',
+    category: 'Dairy',
+    image: 'https://picsum.photos/seed/lacnor-low-fat-milk/600/800',
+    price: 11.50,
+    tags: ['Low Fat', 'Nutritious'],
+  },
+  {
+    id: 'chocolate-milk',
+    name: 'Chocolate Milk',
+    description: 'A delicious treat for kids and adults alike. Made with real cocoa.',
+    category: 'Dairy',
+    image: 'https://picsum.photos/seed/lacnor-chocolate-milk/600/800',
+    price: 13.00,
+    tags: ['Real Cocoa', 'Kids Favorite'],
+  },
+];
